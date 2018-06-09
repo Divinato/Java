@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="29" height="21" tilewidth="32" tileheight="32" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" name="grass" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="tuiles/grass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="19" name="rock" tilewidth="32" tileheight="32" tilecount="2" columns="2">
+  <image source="tuiles/rock.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="21" name="bridges" tilewidth="32" tileheight="32" tilecount="42" columns="6">
+  <image source="tuiles/bridges.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="63" name="glace" tilewidth="32" tileheight="32" tilecount="100" columns="1">
+  <image source="tuiles/glace.png" width="32" height="32"/>
+ </tileset>
+ <layer name="sol" width="29" height="21">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACrNnYGCwpzImBKht36ido3aO2jlq56ido3aO2jlq51CzEwAgEpeNhAkAAA==
+  </data>
+ </layer>
+ <layer name="objets" width="29" height="21">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAChNmYGAQpjI2JIBBaqgFRAbAToZRO0ftHLVz1M5RO0ftHLWTpnaKDICd9G4PAQB17QYIhAkAAA==
+  </data>
+ </layer>
+</map>
