@@ -9,9 +9,17 @@
  <tileset firstgid="21" name="bridges" tilewidth="32" tileheight="32" tilecount="42" columns="6">
   <image source="tuiles/bridges.png" width="192" height="224"/>
  </tileset>
- <tileset firstgid="63" name="glace" tilewidth="32" tileheight="32" tilecount="100" columns="1">
+ <tileset firstgid="63" name="glace" tilewidth="32" tileheight="32" tilecount="1" columns="1">
   <image source="tuiles/glace.png" width="32" height="32"/>
  </tileset>
+ <tileset firstgid="64" name="logic" tilewidth="32" tileheight="32" tilecount="25" columns="5">
+  <image source="tuiles/logic.png" width="160" height="160"/>
+ </tileset>
+ <layer name="logic" width="29" height="21" opacity="0.32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACnNgYGBwGABMCiCknhZ2EuOmUTtHtp2UuoEcOwmZR287iQGjdg4NO0lRRy07iXUTPe1EtpuadhKjllw7SXEHteykBAxmO+mNAfsG8SiECQAA
+  </data>
+ </layer>
  <layer name="sol" width="29" height="21">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAACrNnYGCwpzImBKht36ido3aO2jlq56ido3aO2jlq51CzEwAgEpeNhAkAAA==
@@ -19,7 +27,7 @@
  </layer>
  <layer name="objets" width="29" height="21">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAChNmYGAQpjI2JIBBaqgFRAbAToZRO0ftHLVz1M5RO0ftHLWTpnaKDICd9G4PAQB17QYIhAkAAA==
+   H4sIAAAAAAAAChNmYGAQpjI2JIBBakgB+NSL0MhOYtw0aufItpNSN1Dbn8SoHSphO2on/e0kRR29/CmMRA/lsIWZRys7KfH7YA5bkQGwk97tIQDw/HtihAkAAA==
   </data>
  </layer>
 </map>
