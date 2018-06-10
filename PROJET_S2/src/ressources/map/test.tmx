@@ -15,9 +15,15 @@
  <tileset firstgid="64" name="logic" tilewidth="32" tileheight="32" tilecount="25" columns="5">
   <image source="tuiles/logic.png" width="160" height="160"/>
  </tileset>
+ <tileset firstgid="89" name="holek" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="tuiles/holek.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="107" name="icerock" tilewidth="32" tileheight="32" tilecount="2" columns="2">
+  <image source="tuiles/icerock.png" width="64" height="32"/>
+ </tileset>
  <layer name="logic" width="29" height="21" opacity="0.32">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAACnNgYGBwGABMCiCknhZ2EuOmUTtHtp2UuoEcOwmZR287iQGjdg4NO0lRRy07iXUTPe1EtpuadhKjllw7SXEHteykBAxmO+mNAfsG8SiECQAA
+   H4sIAAAAAAAACu3OMQ4AIAgDQJ7G/1/l6qQtVIyRJmwNVzczv3BMVv1TJrKpzb/N7IaIuftXbSJp8w2T6alMdFOlOdtKE+lGTWaHyswENZUuY1beABo7rTmECQAA
   </data>
  </layer>
  <layer name="sol" width="29" height="21">
@@ -27,7 +33,7 @@
  </layer>
  <layer name="objets" width="29" height="21">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAChNmYGAQpjI2JIBBakgB+NSL0MhOYtw0aufItpNSN1Dbn8SoHSphO2on/e0kRR29/CmMRA/lsIWZRys7KfH7YA5bkQGwk97tIQDw/HtihAkAAA==
+   H4sIAAAAAAAACstmYGDIpjI2JIBBakgBwnjkcmhkJyEwaueonfjSJa3sxAeIcc9QCdtRO+lvJ7HpmZ7+hLlpqIctCNAyf1JSFg3msM0ZADvp3R4CAIcFlh2ECQAA
   </data>
  </layer>
 </map>

@@ -27,7 +27,7 @@ public class Carte {
         int yDecalage = 0;
         switch(direction) {
 	        case 1: xDecalage = -18; break;
-	        case 3: xDecalage = 15; break;
+	        case 3: xDecalage = 18; break;
 	        case 0: yDecalage = -25; break;
 	        case 2: yDecalage = 5; break;
         }
@@ -39,6 +39,18 @@ public class Carte {
         }
         return collision;
     }
+	
+	public boolean setRock(int x, int y) {
+		boolean isPosed = false;
+		if(this.tiledMap.getTileId(x, y, 2) == 0) {
+			if(this.tiledMap.getTileId(x, y, 1) == 63) {
+				this.tiledMap.setTileId(x, y, 2, 19);
+				this.tiledMap.setTileId(x, y, 0, 64);
+				isPosed = true;
+			}
+		}
+		return isPosed;
+	}
 	
 	public int getObjectCount() {
 		return this.tiledMap.getObjectCount(0);

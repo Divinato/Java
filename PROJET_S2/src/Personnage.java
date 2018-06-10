@@ -10,6 +10,8 @@ public class Personnage {
 	private int direction = 2;
 	private boolean enMouvement = false;
 	private Animation[] animations = new Animation[8];
+	private int sort = 0;
+	private int nbrCout =0;
 	
 	private Carte map;
 	
@@ -48,11 +50,32 @@ public class Personnage {
 			boolean collision = this.map.isCollision(futurX, futurY,this.direction);
 			if (collision) {
 				this.enMouvement = false;
+				this.direction = 2;
 			} else {
 				this.x = futurX;
 				this.y = futurY;
 			}
 		}
+	}
+	
+	public int getNbrCout() {
+		return this.nbrCout;
+	}
+	
+	public void setNbrCout(int nbrCout) {
+		this.nbrCout = nbrCout;
+	}
+	
+	public int getSort() {
+		return this.sort;
+	}
+	
+	public void setSort(int sort) {
+		this.sort = sort;
+	}
+	
+	public Carte getCarte() {
+		return this.getCarte();
 	}
 	
 	public boolean getMouvement() {
